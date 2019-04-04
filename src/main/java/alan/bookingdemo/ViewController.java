@@ -11,6 +11,7 @@ public class ViewController {
 
     @RequestMapping
     public String index(Model model) {
+	// model attributes to define environment
         model.addAttribute("datetime", new Date());
         model.addAttribute("username", "Alan Treanor");
         model.addAttribute("mode", "production");

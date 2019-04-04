@@ -15,15 +15,15 @@ public class HotelBooking {
     private String hotelName;
     private double pricePerNight;
     private int numNights;
-
+    // default class constructor
     public HotelBooking() {}
-
+    // class constructor with parameters
     public HotelBooking(String newName, double newPricePerNight, int newNumNights) {
         this.hotelName = newName;
         this.pricePerNight = newPricePerNight;
         this.numNights = newNumNights;
     }
-
+    // getters - hotelName, pricePerNight, numNights, totalPrice & id
     public String getHotelName() {
         return hotelName;
     }
